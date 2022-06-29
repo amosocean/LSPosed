@@ -159,7 +159,7 @@ elif [ "$FLAVOR" == "riru" ]; then
   fi
 fi
 
-if [ "$API" -ge 29 ]; then
+if [ "$API" -ge 28 ]; then
   ui_print "- Extracting dex2oat binaries"
   mkdir "$MODPATH/bin"
 
